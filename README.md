@@ -1,0 +1,3 @@
+# Dart Reduce Method and Nullable Values
+
+This example demonstrates a common error when using the `reduce` method in Dart with lists containing nullable values. The `reduce` method expects a function that takes two non-null values and returns a single value.  If you try to reduce a list with null values, you'll get a runtime error. The solution involves handling the null values explicitly within the reduce function.
